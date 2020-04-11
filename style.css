@@ -1,0 +1,127 @@
+        @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+        html {
+            background-color: #f2f0eb;
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: 222;
+        }
+        
+        body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: 222;
+        }
+        
+        .cover {
+            position: relative;
+            height: calc(100vh - 76px);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .cover h1 {
+            color: #fff;
+            margin: 0 0 10px;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .wrap {
+            width: 100%;
+            height: auto;
+        }
+        
+        .text {
+            text-align: center;
+        }
+        
+        #list {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+        
+        .front {
+            position: absolute;
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 0 0 15px;
+        }
+        
+        .view {
+            width: 50%;
+        }
+        
+        .card-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            width: 50%;
+        }
+        
+        .body-wrap {
+            width: 100%;
+        }
+        
+        .view img {
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        #myItem {
+            max-width: 768px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        #myItem input[type="text"],
+        #myItem input[type="search"] {
+            width: 320px;
+            height: 40px;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 10px;
+            border: none;
+            box-shadow: none;
+            outline: none;
+        }
+        
+        #myItem input[type="submit"] {
+            height: 40px;
+            background: #eb0029;
+            border: none;
+            transition: all 0.4s ease;
+            color: #fff;
+        }
+        
+        #myItem input[type="submit"]:hover {
+            background: #0d1689;
+        }
+        
+        .show .list-detail {
+            display: block;
+        }
+        
+        .list-detail {
+            margin: 0;
+            padding: 15px 0 0;
+            list-style: none;
+            display: none;
+        }
+        
+        .list-detail li {
+            margin: 0 0 10px;
+        }
