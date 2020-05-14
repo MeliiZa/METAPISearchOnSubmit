@@ -1,7 +1,6 @@
 # The Metropolitan Museum of Art Search Engine #
 
-The Met Search Engine is a website that allows you to find works of art based on any keyword.
-This search engine will only show you 20 results coming from the Metropolitan Museum of Art API, and at first glance you will be able to see an image of the piece, the title and a link which can take you to the full site, as well it includes a "Show More" button where you can see dimensions of the piece, when is this piece dated from and classification.
+Using the Met API, my Met search engine allows you to search the collection of the Metropolitan Museum of Art in NYC by artist, keyword, year, etc. The search engine returns up to 20 results, along with details about each piece.
 ___________________________________________________________________
 
 **Important to Note**
